@@ -16,3 +16,11 @@ So I'm here in [RS School](https://rs.school/) to get so much experience I can g
 - HTML5
 - CSS3
 - JavaScript
+
+### Experience
+
+Currently I have no production experience with JavaScript development
+  
+### English level
+
+Current level - **A2+**
