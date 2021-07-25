@@ -1,1 +1,1 @@
-https://shmel-kai.github.io/rsschool-cv/cv
+https://shmel-kai.github.io/rsschool-cv/
