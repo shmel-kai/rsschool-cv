@@ -16,6 +16,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     border-bottom: lightslategray solid 2px;
     margin: 0;
+    text-align: center;
 }
 
 .header-section {
