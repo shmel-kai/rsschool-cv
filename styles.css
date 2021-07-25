@@ -1,13 +1,17 @@
 body {
     margin: 0px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 } 
 
 main {
-    margin: 50px 20% 90px;
+    margin: 50px 20px 90px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 30px;
     background-color: whitesmoke;
+    max-width: 1200px;
 }
 
 #cv {
@@ -17,6 +21,7 @@ main {
     border-bottom: lightslategray solid 2px;
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 .header-section {
@@ -34,6 +39,7 @@ main {
     height: auto;
     font-size: 18px;
     flex: 2 1 300px;
+    margin: 5px;
 }
 
 .right-blocks {
@@ -47,17 +53,25 @@ main {
     height: auto;
 }
 
-.footer-content {
+footer {
     border-top: lightslategray solid 2px;
     background-color:whitesmoke;
     display: flex; 
     position: fixed;
+    justify-content: center;
     bottom: 0;
     width: 100%;
+}
+
+.footer-content {
+    background-color:whitesmoke;
+    display: flex; 
+    width: 100%;
+    max-width: 1200px;
     padding: 5px 0;
 }
 
-.div {
+.footer-element {
     flex: 1 1 100px;
     width: 100px;
     height: auto;
