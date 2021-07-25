@@ -1,0 +1,75 @@
+
+body {
+    margin: 0px;
+    min-height: 100vh;
+} 
+main {
+    margin: 0 20%;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+#cv {
+    margin-bottom: 0px;
+    padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: lightslategray solid 5px;
+}
+
+.main {
+    background-color:whitesmoke;
+    padding: 40px;
+    display: flex; 
+    justify-content: flex-start;
+}
+
+.leftBlocks {
+    width: 300px;
+    height: auto;
+    flex: 2 1 300px;
+    border: blue solid 5px;
+}
+
+.rightBlocks {
+   margin-left: 40px;
+   flex: 2 1 600px;
+   border:tomato solid 5px;
+}
+
+#img{
+    width: 100%;
+    height: auto;
+}
+.footer-content {
+    border-top: lightslategray solid 5px;
+    background-color:silver;
+    display: flex; 
+    padding: 0 20%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.div {
+    flex: 1 1 100px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#year {
+    font: 35px 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+#git {
+    width: 35px;
+}
+
+#rss {
+    width: 100px;
+    height: auto;  
+}
+
