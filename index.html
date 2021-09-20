@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/avatar.png">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <div class="empty-section">
+                <div class="header-high"></div>
+            </div>
+            
+            <div class="mobile-header-section">
+                <figure class="avatar-mobile">
+                    <img src="./assets/avatar.png" alt="avatar" class="avatar-img">
+                </figure>
+                <header class="header">
+                    <h1 class="cv-name">Alexandra Chuchvaha</h1>
+                    <h4>Junior Front-End Developer</h4>
+                </header>
+                <button id="burger" class="burger">
+                    <img src="./assets/menu.svg" class="menu-img" alt="menu icon">
+                </button>
+                <nav class="menu-mobile">
+                    <img src="./assets/close.svg" class="close-icon" alt="close icon">
+                    <ul class="cv-list-mobile">
+                        <li><a href="#contacts" class="link">Contacts</a></li>
+                        <li><a href="#skills" class="link">Skills</a></li>
+                        <li><a href="#education" class="link">Education</a></li>
+                        <li><a href="#languages" class="link">Languages</a></li>
+                        <li><a href="#summary" class="link">Summary</a></li>
+                        <li><a href="#experience" class="link">Experience</a></li>
+                        <li><a href="#examples" class="link">Examples</a></li>
+                        <li><a href="#projects" class="link">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <header class="header-mobile-small">
+                <h1 class="cv-name">Alexandra Chuchvaha</h1>
+                <h4>Junior Front-End Developer</h4>
+            </header>
+
+            <aside class="personal-info">
+                <figure class="avatar">
+                    <img src="./assets/avatar.png" alt="avatar" class="avatar-img">
+                </figure>
+                <div class="personal-info-row">
+                    <div class="info-item">
+                        <h2 id="contacts">Contacts</h2>
+                        <ul class="contacts-list">
+                            <li><img src="./assets/mail.svg" alt="gmail">al.chuchvaha@gmail.com</li>
+                            <li><img src="./assets/logo-github.svg" alt="github"><a href="https://github.com/shmel-kai">shmel-kai</a></li>
+                            <li><img src="./assets/home.svg" alt="home">Minsk, Belarus</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="info-item">
+                        <h2 id="skills">Skills</h2>
+                        <ul>
+                            <li>Git</li>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="personal-info-row">
+                    <div class="info-item">
+                        <h2 id="education">Education</h2>
+                        <div class="date">2012-2017</div>
+                        <p>Belarusian State Medical University, Dental Faculty</p>
+                        <div class="date">2021</div>
+                        <p>The Rolling Scopes School, JavaScript/Front-end</p>
+                    </div>
+                    <div class="info-item">
+                        <h2 id="languages">Foreign languages</h2>
+                        <p>English - B1</p>
+                    </div>
+                </div>
+            </aside>
+    
+            <main class="main-content">
+                <header class="header">
+                    <h1 class="cv-name">Alexandra Chuchvaha</h1>
+                    <h4 class="position">Junior Front-End Developer</h4>
+                </header>
+                <nav class="menu">
+                    <ul class="cv-list">
+                        <li><a href="#contacts" class="link">Contacts</a></li>
+                        <li><a href="#summary" class="link">Summary</a></li>
+                        <li><a href="#experience" class="link">Experience</a></li>
+                        <li><a href="#examples" class="link">Examples</a></li>
+                        <li><a href="#projects" class="link">Projects</a></li>
+                    </ul>
+                </nav>
+                <div class="main-content-item">
+                    <h2 id="summary"><img src="./assets/checkmark-circle.svg" alt="check icon">Summary</h2>
+                    <p>
+                        Hi! My name is <span class="name">Sasha Chuchvaha</span>. I want to learn more about JavaScript development. 
+                        I think that web development is very interesting, 
+                        so I decided to try myself in this direction.<br>
+                        So I'm here in <a href="https://rs.school/js/">RS School</a> to get so much experience I can get.
+                    </p>
+                </div>
+                <div class="main-content-item">
+                    <h2 id="experience"><img src="./assets/briefcase.svg" alt="briefcase icon">Experience</h2>
+                    <p>Currently I have no production experience with JavaScript development.</p>
+                </div>
+                <div class="main-content-item">
+                    <h2 id="examples"><img src="./assets/logo-javascript.svg" alt="javascript icon">Code examples</h2>
+                    <span>Implement a difference function, which subtracts one list from another and returns the result.</span>
+                    <pre>
+                        <code>
+function arrayDiff(a, b) {
+    const i = a.filter(function(element){
+        if (b.includes(element)){
+            return false;
+        } else {
+            return true;
+        }
+    })
+
+    return i;
+}
+                        </code>
+                    </pre>
+                    <span>Given an array of integers, your function bubblesortOnce should return a new array equivalent to performing exactly 1 complete pass on the original array. Your function should be pure, i.e. it should not mutate the input array.</span>
+                    <pre>
+                        <code>
+function bubblesortOnce(a) {
+    const arr = [...a];
+    const len = arr.length;
+
+    for (let j = 0; j &lt; len; j++) {
+        if (arr[j] > arr[j + 1]) {
+            const tmp = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = tmp;
+        }
+    }
+
+    return arr;
+}
+                        </code>
+                    </pre>
+                </div>
+                <div class="main-content-item">
+                    <h2 id="projects"><img src="./assets/flame.svg" alt="briefcase icon">Last projects</h2>
+                    <h3>Js-clock</h3>
+                    <p>Online clock implemented using Vanilla JS with such features as dark mode and alarm.</p>
+                    <span>Technology stack</span>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <a target="_blank" href="https://rolling-scopes-school.github.io/shmel-kai-JSFEPRESCHOOL/js-clock/">
+                        <img class="project-img" src="assets/clock.png" alt="clock">
+                    </a>
+                </div>
+            </main>
+        </div>
+        
+        <footer>
+            <section class="footer-content">
+                <div class="footer-element">
+                    <a href="https://github.com/shmel-kai">
+                        <img src="https://pngimg.com/uploads/github/github_PNG40.png" alt="my GitHub" id="git">
+                    </a>
+                </div>
+                <h2 class="footer-element" id="year">2021</h2>
+                <div class="footer-element">
+                    <a href="https://rs.school/js/">
+                        <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" id="rss">
+                    </a>
+                </div>
+            </section>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script>
+        <script src="./index.js"></script>
+    </body>
+</html>
