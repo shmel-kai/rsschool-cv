@@ -512,3 +512,71 @@ footer {
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .mobile-header-section .header {
+        display: none;
+    }
+
+    .avatar-mobile {
+        margin-left: auto;
+        margin-right: calc(27% - 30px);
+    }
+
+    .menu-mobile.active {
+        width: 100%;
+    }
+
+    .cv-list-mobile li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .personal-info {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .personal-info-row {
+        width: 100%;
+    }
+
+    .header-mobile-small {
+        display: flex;
+        margin-top: 160px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3f3f3;
+        width: 100%;
+        color: #323289;
+    }
+
+    .header-mobile-small .cv-name {
+        text-align: center;
+        margin: 25px 0 10px;
+        font-size: 30px;
+        font-family: 'WindSong';
+    }
+
+    .personal-info {
+        padding-top: 0;
+    }
+
+    .personal-info .info-item h2 {
+        margin-top: 50px;
+    }
+
+    .main-content div {
+        padding: 20px 20px 0;
+    }
+
+    .personal-info .info-item {
+        justify-content: center;
+        padding: 0 20px;
+    }
+
+    pre code {
+        font-size: 12px;
+        line-height: 0px;
+    }
+}
